@@ -18,8 +18,8 @@ img {
     margin-left: auto;
     margin-right: auto;
     border: 3px #051C2C solid;
-    width: 800px;
-    height: 677px;
+    max-width: 800px;
+    height: 700px;
     overflow-x: scroll;
 
 }
