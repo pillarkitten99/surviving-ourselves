@@ -1,35 +1,71 @@
 body {
-    background-color: #F5EEF8;
+    background-image: linear-gradient(#051C2C,#c3aeff, #AEC2FF);
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 0;
+    color: #051C2C;
 }
 
-h1, h2 {
-    /* font-family: serif; */
+main {
+    background-color: white;
+    max-width: 900px;
+    padding: 2em;
     margin-left: auto;
     margin-right: auto;
-    /* max-width: 75%; */
-    text-align: center;
+    padding-top: 1em;
+    margin-top: 1em;
 }
 
-p {
-    font-size: large;
-    /* max-width: 75%; */
+header {
+    background-color: #051C2C;
+    font-size: x-large;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    color: white;
+}
+
+.title {
+    font-size: larger;
+    font-weight: bolder;
+
+}
+
+footer {
+    font-size: small;
     max-width: 800px;
     margin-left: auto;
     margin-right: auto;
     text-align: left;
 }
 
-aside {
-    font-size: x-large;
-    /* font-family: serif; */
+h1, h2 {
     margin-left: auto;
     margin-right: auto;
-    max-width: 800px;
-    max-width: 75%;
     text-align: center;
+    font-family: serif;
+}
+
+h2 {
+    font-size: xx-large;
+}
+
+p {
+    font-size: large;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+a:link {
+    color: #AEC2FF;
+}
+
+a:visited {
+    color: #c3aeff;
 }
 
 figcaption {
@@ -41,14 +77,6 @@ figcaption {
     padding-top: 5px;
 }
 
-footer {
-    font-size: small;
-    max-width: 800px;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: left;
-}
-
 img {
     display: block;
     margin-left: auto;
@@ -56,6 +84,11 @@ img {
     max-width: 60%;
     background-color: #ffffff;
     border: 3px #051C2C solid;
+}
+
+img:hover {
+    max-width: 100%;
+    transition: 0.8s;
 }
 
 .graphic {
