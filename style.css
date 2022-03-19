@@ -1,12 +1,30 @@
 body {
 background-color: #F5EEF8;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+margin-left: auto;
+margin-right: auto;
+}
+
+h1, h2 {
+    font-family: serif;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 800px;
+}
+
+p {
+    font-size: large;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
 }
 
 img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 80%;
+    /* width: 80%; */
     max-width: 800px;
     background-color: #ffffff;
     border: 3px #051C2C solid;
@@ -21,5 +39,4 @@ img {
     max-width: 800px;
     height: 700px;
     overflow-x: scroll;
-
 }
