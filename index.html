@@ -25,7 +25,7 @@
             10 percent of Americans cannot even access health insurance, and those that do are not guaranteed affordable
             care.</p>
         <!-- I dont think this should be a p tag, but I am not sure what. It needs to stand out. -->
-        <p>What?</p>
+        <aside>What?</aside>
         <p>Yep. Millions of normal Americans do not have access to their own health care system despite the enormous
             costs associated with maintaining it. For most nonelderly people in the United States, health insurance is
             tied to employment. This means that, in order to qualify for health insurance, the typical American must be
@@ -62,14 +62,18 @@
                 </object></div>
             <script
                 type='text/javascript'>                    var divElement = document.getElementById('viz1647295152779'); var vizElement = divElement.getElementsByTagName('object')[0]; if (divElement.offsetWidth > 800) { vizElement.style.width = '800px'; vizElement.style.height = '677px'; } else if (divElement.offsetWidth > 500) { vizElement.style.width = '800px'; vizElement.style.height = '677px'; } else { vizElement.style.width = '100%'; vizElement.style.height = '727px'; } var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
-        </div>
+        </div> 
+        <!-- https://public.tableau.com/views/UninsuredRatesamongtheNonelderlybyState2019_16045114144190/Dashboard1?:language=en&:embed=y&:display_count=y&publish=yes&:origin=viz_share_link -->
         <p>Unfortunately, even the ~90% of Americans who do have health insurance cannot always afford treatment. As you
             see in the next graphic from the Kaiser Family Foundation, over 46% of insured Americans are worried about
             paying their medical bills if they were to have an accident. In addition to that, 53% of privately insured
             Americans and 73% of publicly insured Americans are unable to pay their medical bills. Those are extremely
             significant numbers.</p>
-        <img src="problems_paying.png"
+        <figure>
+            <img src="problems_paying.png"
             alt="3 bar graphs showing what percent of Americans have trouble paying medical bills">
+            <figcaption><a href="https://www.kff.org/uninsured/issue-brief/key-facts-about-the-uninsured-population/">Kaiser Family Foundation</a></figcaption>
+            </figure>
         <h2>So, what can be done?</h2>
         <p>The American health care crisis is an enormous task that would require multiple steps and a perfect societal
             and governmental set-up to get started anytime soon. The following proposes one hypothetical solution, a
@@ -78,7 +82,9 @@
             data. How much is the United States really paying for healthcare, and who is paying it? This graphic from
             McKinsey & Company divides up health care spending in the United States by amount and stakeholder. It also
             shows us that 25% of the total spending is spent on administrative costs.</p>
-        <img src="admin_spending.svgz" alt="US health care spending by type and stakeholder">
+        <figure><img src="admin_spending.svgz" alt="US health care spending by type and stakeholder">
+            <figcaption><a href="https://www.mckinsey.com/industries/healthcare-systems-and-services/our-insights/administrative-simplification-how-to-save-a-quarter-trillion-dollars-in-US-healthcare">McKinsey & Company</a></figcaption>
+            </figure>
         <p>The first step of this solution is to reduce those administrative costs and use the extra money to provide
             public health insurance to the uninsured. As you can see in the next image, the largest administrative cost
             for the United States are Industry Agnostic Corporate Functions. These are non-clinical functions that help
@@ -86,12 +92,13 @@
             Transactions Ecosystem, the part of the system that involves claims, billing, and the movement of payments.
             For anyone who has been involved in the American health care system, it is clear that these aspects have
             room for improvement.</p>
-        <img src="spending_focus_areas.svgz" alt="Administrative spending by functional focus area">
+        <figure><img src="spending_focus_areas.svgz" alt="Administrative spending by functional focus area">
+            <figcaption><a href="https://www.mckinsey.com/industries/healthcare-systems-and-services/our-insights/administrative-simplification-how-to-save-a-quarter-trillion-dollars-in-US-healthcare">McKinsey & Company</a></figcaption>
+            </figure>
         <!-- This should be the same look as the "What?" -->
-        <p>Now, let's do some quick math.</p>
+        <aside>Now, let's do some quick math.</aside>
         <!-- Make "medicaid.gov a hyperlink instead of having the link visible, that doesn't look good lol" -->
-        <p>According to Medicaid.gov,
-            https://www.medicaid.gov/state-overviews/scorecard/how-much-states-spend-per-medicaid-enrollee/index.html
+        <p>According to <a href="https://www.medicaid.gov/state-overviews/scorecard/how-much-states-spend-per-medicaid-enrollee/index.html">Medicaid.gov</a>,
             the median total cost of healthcare for someone on Medicaid is $8,436. With an annual administrative budget
             of 950 billion dollars, even a reduction of 10% would be enough to save 9.5 billion dollars per year, enough
             to pay the median cost of Medicaid for about 11 million people. Bringing that up to 30% would be enough to
